@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Link Pseudo-Classes</title>
+  <style>
+    a:link {
+      color: blue;
+    }
+
+    a:visited {
+      color: purple;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: red;
+    }
+
+    a:active {
+      color: green;
+    }
+
+    input:focus {
+      border: 2px solid blue;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🔗 Link Example</h2>
+  <p>
+    <a href="https://www.example.com" target="_blank">Visit Example.com</a>
+  </p>
+
+  <h2>📝 Input Focus Example</h2>
+  <input type="text" placeholder="Click or tab here">
+
+</body>
+</html>
